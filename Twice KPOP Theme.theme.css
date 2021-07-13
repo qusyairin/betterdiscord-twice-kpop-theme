@@ -1,0 +1,45 @@
+/**
+ * @name Twice KPOP Theme
+ * @author Gibbu#1211
+ * @version 2.0.0
+ * @description Display your picture of choice with adjustable blur and brightness. Dark theme is required
+ * @source https://github.com/DiscordStyles/FrostedGlass
+ * @invite ZHthyCw
+ * @donate https://paypal.me/IanRGibson
+ * @website https://gibbu.me
+ * @authorId 174868361040232450
+*/
+
+@import url('https://discordstyles.github.io/FrostedGlass/base.css');
+@import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
+
+:root {
+  --background-image: url('https://i.imgur.com/vZxCUNf.jpg');
+  --background-image-blur: 1px;
+  --background-image-size: cover;
+  --background-image-position: center;
+  --popout-modal-image: url('https://i.imgur.com/iiu9zk8.jpg');
+  --popout-modal-blur: 1px;
+  --popout-modal-size: contain;
+  --popout-modal-position: center;
+  --home-button-image: url('https://i.imgur.com/XwRsndw.png');
+  --home-button-size: contain;
+  --home-button-position: center;
+  --serverlist-brightness: 0.78;
+  --left-brightness: 0.76;
+  --middle-brightness: 0.62;
+  --right-brightness: 0;
+  --popout-modal-brightness: 0.75;
+  --gradient-primary: 103,58,183;
+  --gradient-secondary: 156,39,176;
+  --link-colour: #00b0f4;
+  --scrollbar-colour: rgba(255,255,255,0.05);
+  --gradient-direction: 320deg;
+  --tint-colour: 255,51,159;
+  --tint-brightness: 0;
+  --font: Whitney;
+  --window-padding: 20px;
+  --window-roundness: 10px;
+  --show-gift-gif-buttons: none;
+  --update-notice-1: none;
+}
